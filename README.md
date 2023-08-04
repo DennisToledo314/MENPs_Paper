@@ -7,3 +7,9 @@
 - FIG. 5 Plot: To generate this figure, uncomment line 107 in the "Simple Myelinated Axon.py" file, and run the file.
 - FIG. 6 Data: To generate the data for this figure, uncomment line 99 in the "Simple Myelinated Axon.py" file, and run the file.
 - FIG. 6 Plot: To generate this figure, uncomment line 109 in the "Simple Myelinated Axon.py" file, and run the file.
+
+Note that this work relies on Brian 2: https://brian2.readthedocs.io/en/stable/
+
+Further note that this code makes use of C++ code generation: https://brian2.readthedocs.io/en/stable/introduction/install.html#requirements-for-c-code-generation
+
+The code can also be run without C++ code generation, but that requires an additional line: prefs.codegen.target = "numpy"
