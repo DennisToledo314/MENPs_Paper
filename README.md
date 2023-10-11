@@ -1,4 +1,4 @@
-# MENPs_Paper
+# MENPs_Suppl
 - Uncommenting line 97 in the "Simple Myelinated Axon.py" file, and running the file produces graphs of three action potentials along with the corresponding ion channel behavior.
 - Uncommenting line 101 in the "Simple Myelinated Axon.py" file, and running the file produces strength-duration data.
 - Uncommenting line 105 in the "Simple Myelinated Axon.py" file, and running the file produces a strength-duration curve based on the data.
