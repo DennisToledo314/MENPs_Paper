@@ -21,7 +21,7 @@ def plot_linear_model(t, duty_cy, polarization_curr_menps, appl_mem_voltage):
 
     axs[0].plot(t * 1e3, polarization_curr_menps * 1e15, color='red')
     axs[0].set_xlabel('Time (ms)')
-    axs[0].set_ylabel('Current (aA)')
+    axs[0].set_ylabel('Current (fA)')
     axs[0].grid()
 
     axs[1].plot(t * 1e3, appl_mem_voltage * 1e9, color='blue')
@@ -134,7 +134,7 @@ def plot_nonlinear_model_waveforms(t, duty_cy, polarization_curr_menps, appl_mem
 
     axs[0].plot(t * 1e3, polarization_curr_menps * 1e15, color='red')
     axs[0].set_xlabel('Time (ms)')
-    axs[0].set_ylabel('Current (aA)')
+    axs[0].set_ylabel('Current (fA)')
     axs[0].grid()
 
     axs[1].plot(t * 1e3, appl_mem_voltage * 1e9, color='blue')
@@ -156,7 +156,7 @@ def plot_figtwo_waveforms(t, polarization_curr_menps, appl_mem_voltage, polariza
 
     ax1.plot(t * 1e3, polarization_curr_menps * 1e15, color='red')
     ax1.set_xlabel('t (ms)')
-    ax1.set_ylabel(r'$I_{MENP}$ (aA)')
+    ax1.set_ylabel(r'$I_{MENP}$ (fA)')
     ax1.set_title('MENP Current, Monophasic (20 Hz)')
     ax1.grid()
 
@@ -168,7 +168,7 @@ def plot_figtwo_waveforms(t, polarization_curr_menps, appl_mem_voltage, polariza
 
     ax2.plot(t * 1e3, polarization_curr_menps_bi * 1e15, color='red')
     ax2.set_xlabel('t (ms)')
-    ax2.set_ylabel(r'$I_{MENP}$ (aA)')
+    ax2.set_ylabel(r'$I_{MENP}$ (fA)')
     ax2.set_title('MENP Current, Biphasic (20 Hz)')
     ax2.grid()
 
