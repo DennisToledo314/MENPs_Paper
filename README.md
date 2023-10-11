@@ -1,12 +1,12 @@
 # MENPs_Paper
-- FIG. 1: To reproduce the graphs in this figure, uncomment line 97 in the "Simple Myelinated Axon.py" file, and run the file.
-- FIG. 3 Data: To generate the data for this figure, uncomment line 101 in the "Simple Myelinated Axon.py" file, and run the file.
-- FIG. 3 Plot: To generate this figure, uncomment line 105 in the "Simple Myelinated Axon.py" file, and run the file.
-- FIG. 4: To reproduce the graphs in this figure, run "Fig4.py" file.
-- FIG. 5 Data: To generate the data for this figure, uncomment line 103 in the "Simple Myelinated Axon.py" file, and run the file.
-- FIG. 5 Plot: To generate this figure, uncomment line 107 in the "Simple Myelinated Axon.py" file, and run the file.
-- FIG. 6 Data: To generate the data for this figure, uncomment line 99 in the "Simple Myelinated Axon.py" file, and run the file.
-- FIG. 6 Plot: To generate this figure, uncomment line 109 in the "Simple Myelinated Axon.py" file, and run the file.
+- Uncommenting line 97 in the "Simple Myelinated Axon.py" file, and running the file produces graphs of three action potentials along with the corresponding ion channel behavior.
+- Uncommenting line 101 in the "Simple Myelinated Axon.py" file, and running the file produces strength-duration data.
+- Uncommenting line 105 in the "Simple Myelinated Axon.py" file, and running the file produces a strength-duration curve based on the data.
+- Running "Fig4.py" file produces four graphs of modeled I-V characteristics for an MENP.
+- Uncommenting line 103 in the "Simple Myelinated Axon.py" file, and running the file produces the data for distance vs. number of MENPs to trigger an action potential.
+- Uncommenting line 107 in the "Simple Myelinated Axon.py" file, and running the file produces a distance vs. number of MENPs curve based on the data.
+- Uncommenting line 99 in the "Simple Myelinated Axon.py" file, and running the file produces the data for number of layers of MENPs vs. membrane voltage change.
+- Uncommenting line 109 in the "Simple Myelinated Axon.py" file, and running the file produces a number of layers of MENPs vs. membrane voltage change curve based on the data.
 
 Note that this work relies on Brian 2: https://brian2.readthedocs.io/en/stable/
 
